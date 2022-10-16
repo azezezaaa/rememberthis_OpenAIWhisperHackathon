@@ -25,7 +25,7 @@ def transcribe(audio, state={}, lang=None):
     return state['transcription'], state, f"Detected language: {transcription['language']}", f"Detected Keyword: {keyword[0][0]}"
 
 
-title = "Whisper4Lokal - OpenAI's Whisper hackathon"
+title = "RememberThis by Whisper4Lokal - OpenAI's Whisper hackathon"
 transcription_tb = gr.Textbox(label="Transcription", lines=10, max_lines=20)
 detected_lang = gr.outputs.HTML(label="Detected Language")
 detected_keyword= gr.outputs.HTML(label="Detected Keyword")
