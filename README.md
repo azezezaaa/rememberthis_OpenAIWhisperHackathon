@@ -4,3 +4,6 @@ This repo contains the scripts for the app made during the Open AI Whisper Hacka
 # About
 This app takes in a voice recording, transcribe it and extracts the main keyword from the transcribed text. The text and keyword are then stored in a Google Sheet.
 
+# Note
+To obtain the Google Sheets API key, head to https://pygsheets.readthedocs.io/en/latest/authorization.html. 
+The sheetsKey.json contained my API key for Google Sheet.
